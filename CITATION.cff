@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "MorphoFormer"
+abstract: >-
+  Reference implementation of MorphoFormer, a joint building height and
+  footprint estimation framework built around a BF-Guided Task Decoder and a
+  Morphology Consistency Loss.
+type: software
+license: MIT
+repository-code: "https://github.com/geumjin99/morphoformer"
+authors:
+  - family-names: "Han"
+    given-names: "Jinzhen"
+    affiliation: "Sungkyunkwan University"
+  - family-names: "Lee"
+    given-names: "JinByeong"
+    affiliation: "Sungkyunkwan University"
+  - family-names: "Kim"
+    given-names: "Jisung"
+    affiliation: "University of Leeds"
+  - family-names: "Yun"
+    given-names: "HongSik"
+    affiliation: "Sungkyunkwan University"
+preferred-citation:
+  type: article
+  title: "Morphology-Guided Cross-Task Coupling for Joint Building Height and Footprint Estimation"
+  journal: "Science of Remote Sensing"
+  year: 2026
+  authors:
+    - family-names: "Han"
+      given-names: "Jinzhen"
+    - family-names: "Lee"
+      given-names: "JinByeong"
+    - family-names: "Kim"
+      given-names: "Jisung"
+    - family-names: "Yun"
+      given-names: "HongSik"

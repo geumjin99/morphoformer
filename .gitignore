@@ -1,0 +1,26 @@
+# Source data and derived cache are never committed (see README > Data).
+# Anchored with a leading slash so they match only at the repository root and
+# not the morphoformer/data/ package directory.
+/data/
+/data_cache/
+*.h5
+
+# Training artefacts
+lightning_logs/
+/logs/
+tb_logs/
+/checkpoints/*/
+!/checkpoints/*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
